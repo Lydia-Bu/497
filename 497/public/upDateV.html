@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>createProfile</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+	<body>
+		<header>
+			<h1 class="h1" style="padding: 20px 20px 20px 20px;">Update Account</h1>
+			<hr>
+		</header>
+		
+		<div class="row" style="margin: 60px 60px 30px;">
+			<div class="col-4">
+	
+				<div>
+					<label for="patientNum">Patient ID:    </label>
+					<input class="" type="number" name="PatientNum" id="PatientNum">
+					
+				</div>
+				<div>
+					<label for="salutation">Salutation:    </label>
+					<select class="" aria-label="Default select example" name="Salutation" id="Salutation">
+						<option selected>Salutation</option>
+						<option value="Mr.">Mr. </option>
+						<option value="Mrs.">Mrs. </option>
+						<option value="Ms. ">Ms. </option>
+					</select>
+					
+				</div>
+				<div>
+					<label for="Fname">First Name:    </label>
+					<input class="" type="text"  name="Fname" id="Fname">
+					
+				</div>
+				<div>
+					<label for="Lname">First Name:    </label>
+					<input class="" type="text"  name="Lname" id="Lname">
+					
+				</div>
+				<div>
+					<label for="mailingName">Mailing Name:    </label>
+					<input class="" type="text"  name="mailingName" id="mailingName">
+					
+				</div>
+				<div>
+					<label for="homePhone">Home Phone:    </label>
+					<input class="" type="number"  name="homePhone" id="homePhone">
+					
+				</div>
+				<div>
+					<label for="cellPhone">Cell Phone:    </label>
+					<input class="" type="number"  name="cellPhone" id="cellPhone">
+					
+				</div>
+				<div>
+					<label for="Email">Email:    </label>
+					<input class="" type="email"  name="Email" id="Email">
+					
+				</div>
+				<div>
+					<label for="tStatus">Termination status:    </label>
+					<select class="" aria-label="Default select example" name="tStatus" id="tStatus">
+						<option selected></option>
+						<option value="Yes">Yes </option>
+						<option value="No">No </option>
+					</select>
+					
+				</div>
+				<div>
+					<label for="tCause">Termination cause:    </label>
+					<input class="" type="text"  name="tCause" id="tCause">
+					
+				</div>
+			</div>
+			<div class="col-4" style="text-align: left;">
+
+				<div>
+					<label for="Gender">Gender:    </label>
+					<input class="" type="text"  name="Gender" id="Gender">
+					
+				</div>
+				<div>
+					<label for="Age">Age:    </label>
+					<input class="" type="number"  name="Age" id="Age">
+					
+				</div>
+				<div>
+					<label for="vstatus">Verteran Status:    </label>
+					<select class="" aria-label="Default select example" name="vstatus" id="vstatus">
+						<option selected></option>
+						<option value="Yes">Yes </option>
+						<option value="No">No </option>
+					</select>
+					
+				</div>
+				
+				<div>
+					<label for="assignedDoc">Assigned Doctor:    </label>
+					<input class="" type="text"  name="assignedDoc" id="assignedDoc">
+					
+				</div>
+				<div>
+					<label for="disbility">Disability:    </label>
+					<input class="" type="text"  name="disbility" id="disbility">
+					
+				</div>
+				<div>
+					<label for="a_group">Group number:    </label>
+					<input class="" type="number"  name="a_group" id="a_group">
+					
+				</div>
+				<div>
+					<label for="MedicalH">Medical history:    </label>
+					<input class="" type="text"  name="MedicalH" id="MedicalH">
+					
+				</div>
+
+				<div>
+					<label for="Ptype">Patient Type:    </label>
+					<select class="" aria-label="Default select example" name="Ptype" id="Ptype">
+						<option selected></option>
+						<option value="Volunteer">Volunteer </option>
+						<option value="Standard">Standard </option>
+					</select>
+					
+				</div>
+
+			</div>
+			<div class="col-4" style="text-align: left;">
+				<div>
+					<label for="start_date">Starting date:    </label>
+					<input class="" type="date"  name="start_date" id="start_date">
+					
+				</div>
+				
+				<div>
+					<label for="end_date">end date:    </label>
+					<input class="" type="date"  name="end_date" id="end_date">
+					
+				</div>
+	
+				<div class="form-group">
+					
+					<label for="Street">Address:    </label>
+					<input class="" type="text"  name="Street" id="Street">
+					
+				
+				</div>
+				<div class="form-row">
+					<div class="col-md-4">
+						<label for="city">City:    </label>
+						<input class="" type="text"  name="city" id="city">
+						
+					</div>
+					<div class="col-md-4">
+						<label for="PostalCode">Postal Code:    </label>
+						<input class="" type="text"  name="PostalCode" id="PostalCode">
+						
+					</div>
+					<div class="col-md-4">
+						<label for="country">Country:    </label>
+						<input class="" type="text"  name="country" id="country">
+						
+					</div>
+				</div>
+				<div>
+					<label for="province">Province:    </label>
+					<select id="province" name="province" class="form-select form-control form-control-sm">
+						<option selected>Choose Province</option>
+						<option value="AB">Alberta</option>
+						<option value="BC">British Columbia</option>
+						<option value="MB">Manitoba</option>
+						<option value="NB">New Brunswick</option>
+						<option value="NL">Newfoundland and Labrador</option>
+						<option value="NS">Nova Scotia</option>
+						<option value="ON">Ontario</option>
+						<option value="PE">Prince Edward Island</option>
+						<option value="QC">Quebec</option>
+						<option value="SK">Saskatchewan</option>
+						<option value="NT">Northwest Territories</option>
+						<option value="NU">Nunavut</option>
+						<option value="YT">Yukon</option>
+					</select>
+					
+				</div>
+				<div class="form-group">
+					<div>
+						<label for="EmergencyContactName">EmergencyContactName:    </label>
+						<input class="" type="text"  name="EmergencyContactName" id="EmergencyContactName">
+						
+					</div>
+					
+					<div>
+						<label for="EmergencyContactNum">EmergencyContactNum:    </label>
+						<input class="" type="number"  name="EmergencyContactNum" id="EmergencyContactNum">
+						
+					</div>
+				</div>
+				<div class="input-group">
+					<label for="extraNote">Extra Note</label>
+					<textarea class="form-control" aria-label="With textarea" name="extraNote" id="extraNote"></textarea>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="container" style="text-align: center;">
+			<button id="update_btn" class="btn btn-primary">update</button>
+		</div>
+		
+		<script src="js/upDateV.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
